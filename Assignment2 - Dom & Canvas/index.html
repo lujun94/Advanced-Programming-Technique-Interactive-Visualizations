@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+ To change this license header, choose License Headers in Project Properties.
+ To change this template file, choose Tools | Templates
+ and open the template in the editor.
+ -->
+<html>
+    <head>
+        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+            <title>Lujun Jian</title>
+            <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    </head>
+    <body>
+        
+        <div id="broad1">
+            <select id="dropDown">
+                <option selected="selected" disabled>Select Data</option>
+                <option value="Northampton" >Northampton</option>
+                <option value="Amherest">Amherest</option>
+                <option value="Easthampton">Easthampton</option>
+            </select>
+            <div id="area">Please Select An Area</div>
+            <select id="type">
+                <option selected="selected" disabled>Select Type</option>
+                <option value="barChart" >Bar Chart</option>
+                <option value="lineChart">Line Chart</option>
+            </select>
+            <canvas id="myCanvas" width="720" height="300"></canvas>
+        </div>
+        <script src="data.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

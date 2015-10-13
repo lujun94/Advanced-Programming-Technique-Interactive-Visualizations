@@ -1,0 +1,28 @@
+select {
+    font-size: 60px;
+    margin-left: 30%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+#myCanvas {
+    margin-left: 30%;
+    margin-bottom: 5%;
+    background-color: white;
+    position: relative;
+}
+
+#area {
+    display: inline-block;
+    margin-left: 5%;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+#type {
+    display: inline-block;
+    margin-left: 5%;
+    font-size: 60px;
+    margin-top: 2%;
+}
+
